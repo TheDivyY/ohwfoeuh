@@ -1,0 +1,114 @@
+/* Apply background gradient */
+body {
+  background: linear-gradient(to bottom, rgb(67, 83, 52), rgb(158, 179, 132), rgb(206, 222, 189));
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the main text */
+.text {
+  font-size: 20px;
+  color: #FAF1E4  ;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+/* Style form container */
+form {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: left;
+  margin-left: 5%;
+  animation: fade-in 1s ease;
+}
+
+/* Style form labels */
+label {
+  color: #435334;
+  font-size: 18px;
+}
+
+/* Style form inputs and textareas */
+form input[type="text"],
+form input[type="email"],
+form select {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 2px solid #9EB384; /* Border color changed to #9EB384 */
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form textarea{
+  width: 90%;
+  border: 2px solid #9EB384;
+  font-size: 18px;
+}
+
+/* Style checkboxes and their labels */
+form input[type="checkbox"] {
+  margin-right: 5px;
+  vertical-align: middle;
+  /* Checkbox color changed to #9EB384 */
+  background-color: #9EB384;
+  border: 1px solid #9EB384;
+  border-radius: 3px;
+  width: 16px;
+  height: 16px;
+  font-size: 22px;
+}
+
+.txt{
+  font-size: 18px;
+}
+
+/* Style the dropdown/select */
+form select {
+  /* Dropdown color changed to #9EB384 */
+  background-color: #9EB384;
+  border: 1px solid #9EB384;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+  background-color: #435334;
+  color: #FAF1E4;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: #9EB384;
+}
+
+/* Style the essay textarea */
+form textarea {
+  resize: none;
+  width: 90%;
+}
+
+/* Add some spacing to the form elements */
+form br {
+  margin: 10px 0;
+}
+
+/* Animation for fading in */
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
